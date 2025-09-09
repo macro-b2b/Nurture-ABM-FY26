@@ -157,6 +157,54 @@
       font-size: 13px;
     }
     .tweet-footer span { margin-right: 16px; }
+
+    /* LinkedIn mockup */
+.linkedin-frame {
+  width: min(600px, 95vw);
+  margin: 0 auto 40px;
+  background: var(--card);
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.4);
+}
+
+.linkedin-header {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  margin-bottom: 12px;
+}
+.linkedin-avatar {
+  width: 40px; height: 40px;
+  border-radius: 50%;
+  background: #0077b5; /* LinkedIn blue */
+  color: #fff;
+  display: flex; align-items: center; justify-content: center;
+  font-weight: bold;
+}
+.linkedin-user strong { font-size: 15px; }
+.linkedin-user span { font-size: 13px; color: var(--muted); margin-left: 4px; }
+.linkedin-role { font-size: 12px; color: var(--muted); }
+
+.linkedin-text {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 12px;
+}
+.linkedin-media video {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  border-radius: 8px;
+  background: #000;
+  margin-bottom: 12px;
+}
+.linkedin-footer {
+  font-size: 13px;
+  color: var(--muted);
+}
+.linkedin-footer span { margin-right: 12px; }
+
+
   </style>
 </head>
 <body>
@@ -178,7 +226,7 @@
       </header>
 
       <div class="media" title="Video">
-        <video id="postVideo" src="video/Nurture-ABM-Socials1080x1350-IG-LinkIn-1.mp4" preload="metadata" playsinline controls muted></video>
+        <video id="postVideo" src="video/Nurture-ABM-Socials1080x1350-IG-LinkIn-2.mp4" preload="metadata" playsinline controls muted></video>
       </div>
 
       <div class="actions">
@@ -189,7 +237,10 @@
 
       <div class="likes">1,248 likes</div>
       <div class="caption">
-        Supercharge your marketing team with Macro embedded team members. Expert global partner marketing concierges to elevate your channel marketing campaigns! <br><br> #macromator #b2b #channelmarketing
+        Hiring great marketing talent takes months. With a contingent workforce, you don’t have to wait.
+
+At Macro, our fractional specialists are already trained, already proven, and ready to deliver as an extension of your team.
+  <br><br> #macromator #b2b #fractionalteam #b2bmarketingspecialist
       </div>
       <div class="time">Posted • Just now</div>
       <div class="divider" aria-hidden="true"></div>
@@ -213,12 +264,13 @@
       </div>
     </div>
     <div class="tweet-text">
-      Supercharge your marketing team with <b>Macro embedded team members</b>. 🚀<br><br>
-      Expert global partner marketing concierges to elevate your channel marketing campaigns!<br><br>
-      <a href="#">#macromator</a> <a href="#">#b2b</a> <a href="#">#channelmarketing</a>
+Hiring great marketing talent takes months. With a contingent workforce, you don’t have to wait.
+
+At Macro, our fractional specialists are already trained, already proven, and ready to deliver as an extension of your team.
+  <br><br>      <a href="#">#macromator</a> <a href="#">#b2b</a> <a href="#">#channelmarketing</a> 
     </div>
     <div class="tweet-image">
-      <img src="images/NurtureABMSocials1200x600-Twitter.jpg" alt="Twitter mockup post">
+      <img src="images/NurtureABMSocials1200x600-Twitter-2.jpg" alt="Twitter mockup post">
     </div>
     <div class="tweet-footer">
       <span>12 Retweets</span>
@@ -226,5 +278,40 @@
     </div>
   </article>
   <p class="helper">Post for Macro's Twitter - 1200×600 format.</p>
+
+    <!-- LinkedIn mockup -->
+  <article class="linkedin-frame">
+    <div class="linkedin-header">
+      <div class="linkedin-avatar">M</div>
+      <div class="linkedin-user">
+        <strong>Macromator</strong>
+        <span>· 1h · <span class="linkedin-icon">in</span></span>
+        <div class="linkedin-role">Marketing Solutions · Toronto, ON</div>
+      </div>
+    </div>
+    <div class="linkedin-text">
+      Hiring great marketing talent takes months. With a contingent workforce, you don’t have to wait.
+      <br><br>
+Is your global team missing out on key opportunities due to a lack of real digital marketing expertise, 
+facing bottlenecks in operations and campaign execution, or 
+struggling to navigate complex regulations? 
+These common challenges can derail your growth and impact your bottom line, but don't worry! <br>
+<a style="text-decoration: underline; color: #1598df;" href="http://https://www.macromator.com/nurture-resources/scale-up-with-fractional-marketing-agency-specialists-nurture?utm_campaign=21220738-2025-q1n&utm_medium=email&_hsenc=p2ANqtz-8S3P2g1_2aZC7IEhqX08EBQR-Zla6DfkJLyApZ4Y22853CzgB0u34vGOyDemgMAddDC0aUhOrO057HUKRx1Nzvu5cGdQ&_hsmi=2&utm_content=2&utm_source=hs_email" target="_blank" rel="noopener noreferrer">Here are the solutions</a> you need to overcome these hurdles and unlock your team's full potential.
+
+
+      At Macro, our fractional specialists are already trained, already proven, and ready to deliver as an extension of your team.
+      <br><br>
+      #macromator #b2b #fractionalteam #b2bmarketingspecialist
+    </div>
+    <div class="linkedin-media">
+      <video src="video/Nurture-ABM-Socials1080x1350-IG-LinkIn-2.mp4" playsinline controls muted></video>
+    </div>
+    <div class="linkedin-footer">
+      <span>24 Likes</span> · <span>6 Comments</span> · <span>2 Shares</span>
+    </div>
+  </article>
+  <p class="helper">Post for Macro's LinkedIn - 1080×1350 video format.</p>
+
+
 </body>
 </html>
